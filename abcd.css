@@ -1,0 +1,420 @@
+/*#import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');*/
+*
+
+  
+
+  
+    
+  
+
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+#abouttext
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    color: rgb(61, 3, 70);
+}
+p
+{
+    font-weight:300;
+    color: #111;
+   
+}
+body
+{
+  min-height : 100px;  
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(pexels-lukas-kloeppel-466685.jpg);
+   /* background-color: #f6ebf4;*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    
+}
+.banner .content
+{
+    max-width: 900px;
+    text-align: center;
+  
+}
+.banner .content h2
+{
+    font-size: 5em;
+   /* color: #1d1160;*/
+   color: #301934;
+    
+}
+.banner .content p
+{
+font-size: 2em;
+color: #d7bde3;
+}
+
+.btn
+{
+    font-size: 1em;
+    color: #fff;
+    background: #393536;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    Letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn:hover
+{
+    letter-spacing: 6px;
+}
+header
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+header.sticky
+{
+    background: #482673;
+    padding: 10px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+
+}
+header .logo
+{
+    color: #482673;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+header.sticky .logo
+{
+    color: #111;
+}
+header .logo span
+{
+    color: #1d1518;
+}
+header .navigation
+{
+    position: relative;
+    display : flex;
+
+}
+header .navigation li
+{
+    list-style: none;
+    margin-left: 30px;
+
+}
+header .navigation li a
+{
+ text-decoration: none;
+ color:#482673;
+ font-weight: 300;
+}
+
+header.sticky .navigation li a
+{
+ color: #111;
+}
+
+header .navigation li a:hover
+{
+  color:#020004;
+}
+section 
+{
+    padding: 100px;
+    background-color:   #f6ebf4;
+}
+.row
+{
+    position : relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50
+{
+    position: relative;
+    width: 48%;
+}
+.titleText
+{
+    color:#482673;
+    font-size: 40px;
+    font-weight: 200;
+}
+.titleText span
+{
+    color:#482673;
+    font-weight: 700;
+    font-size: 2em;
+}
+.row .col50 .imgBx
+{
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+}
+.row .col50 .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titleText
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.menu .content
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.menu .content .box
+{
+    width: 340px;
+    margin:20px;
+    border: 15px solid  #482673;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.menu .content .box .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.menu .content .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.menu .content .box .text
+{
+   padding: 15px 0 5px
+}
+.menu .content .box .text h3
+{
+    font-weight: 600;
+    color: #301008;
+}
+.expert .content
+{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ flex-direction: row;
+ margin-top: 40px;
+}
+.expert .content .box
+{
+    width : 250px;
+    margin: 15px;
+}
+.expert .content .box .imgBx
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.expert .content .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.expert .content .box .text
+{
+    padding: 15px 0 5px;
+}
+.expert .content .box .text h3
+{
+  font-weight: 600;
+  color: #111;
+}
+
+.Reviews 
+{
+    background: url(bg2.jpg);
+    background-size: cover;
+}
+
+.white .titleText,
+.white p
+{
+    color: #fff ;
+}
+
+.Reviews .content
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction : row;
+    margin-top: 40px;
+}
+.Reviews .content .box
+{
+    width: 340px;
+    margin: 20px;
+    padding: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Reviews .content .box .imgBx
+{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.Reviews .content .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.testimonials .content .box .text
+{
+    text-align: center;
+}
+.testimonials .content .box .text p
+{
+    color: #666;
+    font-style: italic;
+}
+.testimonials .content .box .text h3
+{
+    margin-top: 20px;
+    color: #111;
+    font-size: 1em;
+    color: #ff0157;
+    font-weight: 600 ;
+}
+.Contact
+{
+    background: url(bg3.jpg);
+    background-size: cover;
+}
+.contactForm
+{
+    padding: 75px 50px;
+    background: #fff;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.1);
+    max-width: 500px;
+    margin-top: 50px;
+}
+.contactForm h3
+{
+    color: #111;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: 500;
+
+}
+.contactForm .inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color:#111;
+    outline: none;
+    font-size :16px;
+    font-weight: 300;
+    resize: none;
+}
+.contactForm .inputBox input[type="Submit"]
+{
+    font-size: 1em;
+    color: #fff;
+    background: #49015f;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.copyrightText
+{
+    padding: 8px 40px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+}
+.copyrightText p
+{
+    color: #333;
+}
+.copyrightText a
+{
+    color: #ff0157;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.text
+{
+    text-align: center;
+}
